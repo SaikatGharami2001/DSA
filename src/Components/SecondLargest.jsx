@@ -4,6 +4,8 @@ const SecondLargest = () => {
   const arr = [12, -7, 0, 45, 49, 3, -19, 28, 6, -32, 91];
 
   function secondLargest(arr) {
+    if (arr.length < 2) return "Array should have more than 1 elements";
+
     let largestNum = -Infinity;
     let secondLargestNum = -Infinity;
 
@@ -11,7 +13,8 @@ const SecondLargest = () => {
       if (arr[i] > largestNum) {
         secondLargestNum = largestNum;
         largestNum = arr[i];
-      } else if (arr[i] > secondLargestNum) secondLargestNum = arr[i];
+      } else if (arr[i] > secondLargestNum && arr[i] !== largestNum)
+        secondLargestNum = arr[i];
     }
     return secondLargestNum;
   }
