@@ -4,6 +4,7 @@ import LoopsAdvanced from "./Components/LoopsAdvanced";
 import SecondLargest from "./Components/SecondLargest";
 import Practice from "./Components/Practice";
 import DigitCounter from "./Components/DigitCounter";
+import Palindrome from "./Components/Palindrome";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/* <LoopsAdvanced /> */}
       {/* <SecondLargest /> */}
       {/* <Practice /> */}
-      <DigitCounter />
+      {/* <DigitCounter /> */}
+      <Palindrome />
 
       <div>Hello DSA</div>
     </>
