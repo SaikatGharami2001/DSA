@@ -1,4 +1,4 @@
-const Digit = () => {
+const DigitCounter = () => {
   // Write a function that returns the count of digits in a number
   const number = -123456789;
   let count = 0;
@@ -20,4 +20,4 @@ const Digit = () => {
   return <div>Digit</div>;
 };
 
-export default Digit;
+export default DigitCounter;
