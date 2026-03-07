@@ -5,6 +5,8 @@ import SecondLargest from "./Components/SecondLargest";
 import Practice from "./Components/Practice";
 import DigitCounter from "./Components/DigitCounter";
 import Palindrome from "./Components/Palindrome";
+import ReverseInteger from "./Components/ReverseInteger";
+import RemoveDuplicates from "./Components/RemoveDuplicates";
 
 function App() {
   return (
@@ -14,7 +16,9 @@ function App() {
       {/* <SecondLargest /> */}
       {/* <Practice /> */}
       {/* <DigitCounter /> */}
-      <Palindrome />
+      {/* <Palindrome /> */}
+      {/* <ReverseInteger /> */}
+      <RemoveDuplicates />
 
       <div>Hello DSA</div>
     </>
