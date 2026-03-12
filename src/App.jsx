@@ -7,6 +7,8 @@ import DigitCounter from "./Components/DigitCounter";
 import Palindrome from "./Components/Palindrome";
 import ReverseInteger from "./Components/ReverseInteger";
 import RemoveDuplicates from "./Components/RemoveDuplicates";
+import LoopInLoop from "./Components/LoopInLoop";
+import Re from "./Components/LoopInLoop";
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
       {/* <Palindrome /> */}
       {/* <ReverseInteger /> */}
       <RemoveDuplicates />
+      {/* <LoopInLoop /> */}
 
       <div>Hello DSA</div>
     </>
