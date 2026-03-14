@@ -1,12 +1,12 @@
 const RemoveDuplicates = () => {
-  const a = [1, 1, 2, 3, 4, 5, 6, 6, 6, 6, 6, 7, 7];
+  const a = [100, 200, 1, 1, 2, 3];
 
   function dub(arr) {
     let k = 1;
 
     for (let i = 1; i < arr.length; i++) {
-      if (arr[i] !== arr[k]) {
-        k++;
+      if (arr[i] !== arr[k - 1]) {
+        k = k + 1;
         arr[k] = arr[i];
       }
     }

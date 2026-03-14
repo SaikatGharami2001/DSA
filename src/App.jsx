@@ -8,7 +8,10 @@ import Palindrome from "./Components/Palindrome";
 import ReverseInteger from "./Components/ReverseInteger";
 import RemoveDuplicates from "./Components/RemoveDuplicates";
 import LoopInLoop from "./Components/LoopInLoop";
-import Re from "./Components/LoopInLoop";
+import RemoveElements from "./Components/RemoveElements";
+import ApplyOperations from "./Components/ApplyOperations";
+import SingleNumber from "./Components/SingleNumber";
+import MergeSort from "./Components/MergeSort";
 
 function App() {
   return (
@@ -20,8 +23,13 @@ function App() {
       {/* <DigitCounter /> */}
       {/* <Palindrome /> */}
       {/* <ReverseInteger /> */}
-      <RemoveDuplicates />
       {/* <LoopInLoop /> */}
+      {/* <RemoveDuplicates /> */}
+      {/* <RemoveElements /> */}
+      {/* <MoveZeros /> */}
+      {/* <ApplyOperations /> */}
+      {/* <SingleNumber /> */}
+      <MergeSort />
 
       <div>Hello DSA</div>
     </>
